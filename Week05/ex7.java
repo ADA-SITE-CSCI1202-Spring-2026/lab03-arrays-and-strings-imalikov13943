@@ -1,3 +1,5 @@
+package Week05;
+
 public class ex7 {
     public static String reverse(String s){
         StringBuilder sb = new StringBuilder();
