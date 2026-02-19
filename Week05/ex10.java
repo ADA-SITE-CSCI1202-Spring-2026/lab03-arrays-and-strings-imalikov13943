@@ -23,8 +23,6 @@ public class ex10 {
         if (str1.length() != str2.length()) {
             return false;
         }
-    
-        
         char[] str1Chars = str1.toCharArray();
         Arrays.sort(str1Chars);
         String sortedStr1 = new String(str1Chars);
